@@ -1,11 +1,11 @@
 package main
 
 import (
-	"00_HelloWorld/names"
+	"myFirstGoProject/names"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("hello, world!")
-	fmt.Println(names.Bar)
+	names.PrintMinha()
 }
